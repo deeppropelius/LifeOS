@@ -17,7 +17,6 @@ function Navbar() {
         <div className="
       absolute
       bottom-6
-     
       z-10
       text-white
     ">

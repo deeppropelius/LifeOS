@@ -23,7 +23,7 @@ function Clock() {
   const month = currentTime.getMonth() + 1;
 
   return (
-    <div className="relative text-white flex flex-col items-center">
+    <div className="relative text-white flex flex-col items-center top-[-10%]">
      
       {/* Background day */}
       <div className="
