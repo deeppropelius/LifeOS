@@ -18,3 +18,13 @@
   --font-graen: "GraenMetal", sans-serif;
   --font-rome: "Rome", sans-serif;
 }
+.nav-icon {
+  opacity: 0.4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-icon:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
