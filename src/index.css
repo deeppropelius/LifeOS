@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "GraenMetal";
+  src: url("../src/fonts/GraenMetal-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rome";
+  src: url("../src/fonts/RomePersonalUse5-5yEna.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-graen: "GraenMetal", sans-serif;
+  --font-rome: "Rome", sans-serif;
+}
